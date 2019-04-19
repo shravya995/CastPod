@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sports_main"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPORTS PODCASTS"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MICHIGAN SPORTS"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_michigan"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELLA SPORTS"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_della"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 LIVE SPECIALS"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_5livespecias"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE SPORTS PHYCH SHOW"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_SportsPsychShow"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOW THIS IS WHAT I CALL SPORTS!"
+        android:textSize="20dp"
+        android:id="@+id/button_sports_whatiacallsports"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIG DEEP"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_digdeep"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE HOWIE GAMES"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_howieGames"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE FOOTBALL RAMBLE"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_footballramble"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEWSTALK BREAKFAST"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_newstalkbreakfast"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE GEGENPOD"
+        android:textSize="25dp"
+        android:id="@+id/button_sports_gegenpod"/>
+    </LinearLayout>
+
+</ScrollView>

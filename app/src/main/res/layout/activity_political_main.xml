@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Political_main">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@drawable/background2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLITICAL PODCASTS"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE POLITICAL PARTY"
+        android:textSize="25dp"
+        android:id="@+id/button_political_politicalparty"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE DAILY"
+        android:textSize="25dp"
+        android:id="@+id/button_political_politicalgabfest"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEN RUDINS POLITICAL JUNKIE"
+        android:textSize="20dp"
+        android:id="@+id/button_political_kenrudin"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STAMMSTISCH"
+        android:textSize="25dp"
+        android:id="@+id/button_political_stammstisch"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOMETHINGS OFF"
+        android:textSize="25dp"
+        android:id="@+id/button_political_somethingsoff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POLITICAL BREAKDOWN"
+        android:textSize="25dp"
+        android:id="@+id/button_political_politicalbreakdown"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONSIDER THIS!!"
+        android:textSize="25dp"
+        android:id="@+id/button_political_considerthis"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLUGNUTS RADIO HOUR"
+        android:textSize="25dp"
+        android:id="@+id/button_political_slugnuts"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE AXE FIILES WITH DAVID AXELROD"
+        android:textSize="18dp"
+        android:id="@+id/button_political_axefiles"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POLITICAL DROPOUT"
+        android:textSize="20dp"
+        android:id="@+id/button_political_politicaljunkie"
+        android:visibility="invisible"/>
+  </LinearLayout>
+
+</ScrollView>

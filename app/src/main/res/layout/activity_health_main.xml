@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEALTH PODCASTS"
+            android:textColor="#FFF"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSPIRE NATION"
+            android:textSize="25dp"
+            android:id="@+id/button_health_inspirenation"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSIDE HEALTH"
+            android:textSize="25dp"
+            android:id="@+id/button_health_insidehealth"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGMA NUTRITION"
+            android:textSize="25dp"
+            android:id="@+id/button_health_sigmanutrition"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHRUGGED COLLECTIVE"
+            android:textSize="25dp"
+            android:id="@+id/button_health_shruggedcollective"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WISE TRADITIONS!"
+            android:textSize="25dp"
+            android:id="@+id/button_health_wisetraditions"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RICH POLL"
+            android:textSize="25dp"
+            android:id="@+id/button_health_richpoll"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE MODEL HEALTH SHOW"
+            android:textSize="25dp"
+            android:id="@+id/button_health_modelhealth"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVVY PSYCHOLOGIST"
+            android:textSize="25dp"
+            android:id="@+id/button_health_savvypsychocologist"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIFE BY DESIGN"
+            android:textSize="25dp"
+            android:id="@+id/button_health_lifedesign"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEALTH NEWS"
+            android:textSize="25dp"
+            android:id="@+id/button_health_halfsizeme"/>
+    </LinearLayout>
+
+</ScrollView>

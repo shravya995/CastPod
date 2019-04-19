@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "321944622379",
+    "firebase_url": "https://castpod-1741a.firebaseio.com",
+    "project_id": "castpod-1741a",
+    "storage_bucket": "castpod-1741a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321944622379:android:fb7548ffce965805",
+        "android_client_info": {
+          "package_name": "com.example.castpod1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321944622379-be0b1o9ea468i9qj47dih4hp4qds9od3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.castpod1",
+            "certificate_hash": "79df2135292ccaab6cca5926ae7aea7173c73e87"
+          }
+        },
+        {
+          "client_id": "321944622379-itdtfpm7rk8r2n48dj1ilra65hi1ho9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5b5kaqS2xC6smhsF5oziadSmz9_jq40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321944622379-itdtfpm7rk8r2n48dj1ilra65hi1ho9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

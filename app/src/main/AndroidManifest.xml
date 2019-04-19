@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.castpod1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Forget_and_Change_password"></activity>
+        <activity android:name=".signup_page" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Political_Slugnuts_page" />
+        <activity android:name=".Political_ConsiderThis_page" />
+        <activity android:name=".Political_PoliticalBreakdown_page" />
+        <activity android:name=".Political_SomethingsOff_page" />
+        <activity android:name=".Political_Stammstisch_page" />
+        <activity android:name=".Political_KenRudin_page" />
+        <activity android:name=".Political_PoliticalJunkie_page" />
+        <activity android:name=".Political_Axefiles_page" />
+        <activity android:name=".Political_PoliticalParty_page" />
+        <activity android:name=".Political_PoliticalGabfest_page" />
+        <activity android:name=".Motivational_DailyBoost_page" />
+        <activity android:name=".Motivational_MotivationalImpact_page" />
+        <activity android:name=".Motivational_ChillMurray_page" />
+        <activity android:name=".Motivational_MotivationalVibes_page" />
+        <activity android:name=".Motivational_MindSetAndMotivation_page" />
+        <activity android:name=".Motivational_BetterU_page" />
+        <activity android:name=".Motivational_MotivationalMonday_page" />
+        <activity android:name=".Motivational_MotivationalMoments_page" />
+        <activity android:name=".Motivational_MotivationalHigh5_page" />
+        <activity android:name=".Motivational_QuoteOfTheDay_page" />
+        <activity android:name=".motivational_main" />
+        <activity android:name=".Educational_AromaCulture_page" />
+        <activity android:name=".Educational_TopFitton_page" />
+        <activity android:name=".Educational_Psychology_page" />
+        <activity android:name=".Educational_SpecialEducationalNeeds_page" />
+        <activity android:name=".Educational_YoungShow_page" />
+        <activity android:name=".Educational_TechEducator_page" />
+        <activity android:name=".Educational_TeacherCast_page" />
+        <activity android:name=".Educational_EducationalDucktape_page" />
+        <activity android:name=".Educational_Psyched_page" />
+        <activity android:name=".Educational_AlmostEducational_page" />
+        <activity android:name=".educational_main" />
+        <activity android:name=".Health_HalfSizeMe_page" />
+        <activity android:name=".Health_LifeDesign_page" />
+        <activity android:name=".Health_SavvyPssychologist_page" />
+        <activity android:name=".Health_ModelHealth_page" />
+        <activity android:name=".Health_RichPoll_page" />
+        <activity android:name=".Health_WiseTradition_page" />
+        <activity android:name=".Health_ShruggedCollective_page" />
+        <activity android:name=".Health_SigmaNutrition_page" />
+        <activity android:name=".Health_InsideHealth_page" />
+        <activity android:name=".Health_InspireNation_page" />
+        <activity android:name=".health_main" />
+        <activity android:name=".Sports_Gegenpod_page" />
+        <activity android:name=".Sports_NewsStalk_page" />
+        <activity android:name=".Sports_FootballRamble_page" />
+        <activity android:name=".Sports_HowieGames_page" />
+        <activity android:name=".Sports_DigDeep_page" />
+        <activity android:name=".Sports_WhatICallSports_page" />
+        <activity android:name=".Sports_sportsPsychShow" />
+        <activity android:name=".Sports_5LiveSportsSpecial_page" />
+        <activity android:name=".Sports_dellaSports_page" />
+        <activity android:name=".Sports_michigan_page" />
+        <activity android:name=".Sports_main" />
+        <activity android:name=".Political_MichiganRadio_page" />
+        <activity android:name=".Political_bbc_page" />
+        <activity android:name=".Political_main" />
+        <activity android:name=".Login_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

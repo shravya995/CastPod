@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".motivational_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOTIVATIONAL PODCASTS"
+            android:textColor="#FFF"
+            android:textSize="40dp"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE QUOTE OF THE DAY"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_quoteoftheday"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR MOTIVATIONAL HIGH5"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_motivationalhigh5"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOTIVATIONAL MOMENTS"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_motivationalmoments"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARTIST MOTIVATIONAL MONDAY"
+            android:textSize="20dp"
+            android:id="@+id/button_motivational_motivationalmonday"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BETTER U"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_betteru"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MINDSET AND MOTIVATION"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_mindsetandmotivation"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOTIVATIONAL VIBES"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_motivationalvibes"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHILL MURRAY"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_chillmurray"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOTIVATIONAL IMPACT"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_motivationalimpact"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE DAILY BOOST"
+            android:textSize="25dp"
+            android:id="@+id/button_motivational_dailyboost"/>
+    </LinearLayout>
+
+</ScrollView>

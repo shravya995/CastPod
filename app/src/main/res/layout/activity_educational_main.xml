@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".educational_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDUCATIONAL PODCASTS"
+            android:textColor="#FFF"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALMOST EDUCATIONAL"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_almosteducational"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSYCHED"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_psyched"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDUCATIONAL DUCK TAPE"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_eduducktape"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOU ARE NOT SO SMART!!"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_teachercast"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RATIONALLY SPEAKING"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_techteacher"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUNG SHOW"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_youngshow"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPECIAL EDUCATIONAL NEEDS"
+            android:textSize="20dp"
+            android:id="@+id/button_educational_specialeducational"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSYCHOLOGy"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_psychocology"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOM FITTONS UPDATE"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_topfitton"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AROMA CULTURE"
+            android:textSize="25dp"
+            android:id="@+id/button_educational_aromaculture"/>
+    </LinearLayout>
+
+</ScrollView>
