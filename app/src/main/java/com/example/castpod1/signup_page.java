@@ -97,7 +97,7 @@ public class signup_page extends AppCompatActivity {
         });
     }
     public void Register(){
-        Intent intent=new Intent(this,Login_page.class);
+        Intent intent=new Intent(this,HomeActivity.class);
         startActivity(intent);
     }
 }

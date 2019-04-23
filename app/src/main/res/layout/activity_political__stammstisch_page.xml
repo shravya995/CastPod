@@ -5,13 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Political_Stammstisch_page"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#d1d1d1">
     <SearchView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:queryHint="Search Here"
         android:iconifiedByDefault="false"
         android:id="@+id/search_view"
+        android:background="#ffff"
         >
 
     </SearchView>
@@ -20,6 +22,11 @@
         android:id="@+id/lstrss"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimary"></ListView>
+        android:background="#8df27d"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:dividerHeight="10dp"
+        android:divider="#d1d1d1"></ListView>
 
 </LinearLayout>

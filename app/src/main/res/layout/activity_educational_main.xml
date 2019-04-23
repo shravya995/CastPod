@@ -16,6 +16,7 @@
             android:text="EDUCATIONAL PODCASTS"
             android:textColor="#FFF"
             android:textSize="40dp"
+            android:fontFamily="@font/bullpen"
             />
 
         <Button
@@ -23,7 +24,8 @@
             android:layout_height="wrap_content"
             android:text="ALMOST EDUCATIONAL"
             android:textSize="25dp"
-            android:id="@+id/button_educational_almosteducational"/>
+            android:id="@+id/button_educational_almosteducational"
+            />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

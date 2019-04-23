@@ -29,7 +29,10 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_gravity="right"
-           android:text="     LOGOUT     " />
+           android:text="     LOGOUT     "
+           android:fontFamily="@font/allcan"
+           android:background="@drawable/rounded_button2"
+           />
 
    </LinearLayout>
     <Space
@@ -48,6 +51,7 @@
             android:layout_marginLeft="40dp"
             android:background="@drawable/circle_button"
             android:text="POLITICS"
+            android:drawableTop="@drawable/ic_vote"
             android:id="@+id/button_politics"
             />
 
@@ -58,6 +62,7 @@
             android:layout_marginRight="40dp"
             android:background="@drawable/circle_button"
             android:text="SPORTS"
+            android:drawableTop="@drawable/ic_sports"
             android:id="@+id/button_sports"/>
     </RelativeLayout>
     <RelativeLayout
@@ -70,6 +75,7 @@
             android:layout_centerInParent="true"
             android:background="@drawable/circle_button"
             android:id="@+id/button_health"
+            android:drawableTop="@drawable/ic_first_aid_kit"
 
             android:text="HEALTH" />
     </RelativeLayout>
@@ -87,6 +93,8 @@
             android:layout_marginLeft="40dp"
             android:background="@drawable/circle_button"
             android:text="EDUCATIONAL"
+            android:textSize="12dp"
+            android:drawableTop="@drawable/ic_open_book"
             android:id="@+id/button_educational"/>
 
         <Button
@@ -96,6 +104,8 @@
             android:background="@drawable/circle_button"
             android:layout_marginRight="40dp"
             android:text="MOTIVATIONAL"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_cloud"
             android:id="@+id/button_motivational"/>
     </RelativeLayout>
 
