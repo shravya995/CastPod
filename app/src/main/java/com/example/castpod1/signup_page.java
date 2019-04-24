@@ -1,5 +1,6 @@
 package com.example.castpod1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -97,7 +98,7 @@ public class signup_page extends AppCompatActivity {
         });
     }
     public void Register(){
-        Intent intent=new Intent(this,HomeActivity.class);
+        Intent intent=new Intent(this,MainActivity.class);
         startActivity(intent);
     }
 }
